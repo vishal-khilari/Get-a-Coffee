@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Minimal Tailwind CSS v4.1 setup",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
-    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.14",
